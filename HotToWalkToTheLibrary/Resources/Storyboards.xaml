@@ -1,0 +1,109 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Ellipse Storyboards-->
+
+    <Storyboard x:Key="EllipseMouseEnter">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Ellipse.Fill).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource BlueWhiteCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource WhiteCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="EllipseMouseLeave">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Ellipse.Fill).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource WhiteCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource BlueWhiteCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="EllipseMouseDown">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Ellipse.Fill).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource WhiteCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource BlueWhiteCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.1" Value="{StaticResource WhiteCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <!--Border Black Storyboards-->
+
+    <Storyboard x:Key="BBorderMouseEnter">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource DarkBlueCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource VeryDarkBlueCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="BBorderMouseLeave">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource VeryDarkBlueCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource DarkBlueCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="BBorderMouseDown">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource VeryDarkBlueCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource DarkBlueCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.1" Value="{StaticResource VeryDarkBlueCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <!--Border White Storyboards-->
+
+    <Storyboard x:Key="WBorderMouseEnter">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource BlueWhiteCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource WhiteCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="WBorderMouseLeave">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource WhiteCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource BlueWhiteCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+    <Storyboard x:Key="WBorderMouseDown">
+        <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)"
+                                                      Duration="0:0:0.1"
+                                                      FillBehavior="HoldEnd">
+            <ColorAnimationUsingKeyFrames.KeyFrames>
+                <DiscreteColorKeyFrame KeyTime="0:0:0" Value="{StaticResource WhiteCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.01" Value="{StaticResource BlueWhiteCol}"/>
+                <DiscreteColorKeyFrame KeyTime="0:0:0.1" Value="{StaticResource WhiteCol}"/>
+            </ColorAnimationUsingKeyFrames.KeyFrames>
+        </ColorAnimationUsingKeyFrames>
+    </Storyboard>
+
+    <!--Border Animations Storyboards-->
+
+
+</ResourceDictionary>

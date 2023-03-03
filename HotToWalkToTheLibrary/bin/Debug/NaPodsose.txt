@@ -1,0 +1,22 @@
+    <!--Темные цвета Brush-->
+    <DrawingBrush x:Key="DarkBlue">#C1CFEF</DrawingBrush>
+    <DrawingBrush x:Key="DarkGray">#E1E5EF</DrawingBrush>
+    <DrawingBrush x:Key="VeryDarkBlue">#ffff</DrawingBrush>
+
+    <!--Темные цвета Color-->
+    <Color x:Key="DarkBlueCol">#C1CFEF</Color>
+    <Color x:Key="DarkGrayCol">#E1E5EF</Color>
+    <Color x:Key="VeryDarkBlueCol">#ffff</Color>
+
+    <!--Светлые цвета Brush-->
+    <DrawingBrush x:Key="BlueWhite">#14171F</DrawingBrush>
+    <DrawingBrush x:Key="White">#0E0F11</DrawingBrush>
+    <DrawingBrush x:Key="VeryWhite">#FF1E232D</DrawingBrush>
+
+    <!--Светлые цвета Color-->
+    <Color x:Key="BlueWhiteCol">#14171F</Color>
+    <Color x:Key="WhiteCol">#0E0F11</Color>
+    <Color x:Key="VeruWhiteCol">#FF1E232D</Color>
+
+
+    <DrawingBrush x:Key="Pink">#FF0049</DrawingBrush>

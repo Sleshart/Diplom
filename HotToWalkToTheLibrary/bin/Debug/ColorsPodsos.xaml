@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+    <!--Темные цвета Brush-->
+    <DrawingBrush x:Key="DarkBlue">#14171F</DrawingBrush>
+    <DrawingBrush x:Key="DarkGray">#0E0F11</DrawingBrush>
+    <DrawingBrush x:Key="VeryDarkBlue">#FF1E232D</DrawingBrush>
+
+    <!--Темные цвета Color-->
+    <Color x:Key="DarkBlueCol">#14171F</Color>
+    <Color x:Key="DarkGrayCol">#0E0F11</Color>
+    <Color x:Key="VeryDarkBlueCol">#FF1E232D</Color>
+
+    <!--Светлые цвета Brush-->
+    <DrawingBrush x:Key="BlueWhite">#C1CFEF</DrawingBrush>
+    <DrawingBrush x:Key="White">#E1E5EF</DrawingBrush>
+    <DrawingBrush x:Key="VeryWhite">#ffff</DrawingBrush>
+
+    <!--Светлые цвета Color-->
+    <Color x:Key="BlueWhiteCol">#C1CFEF</Color>
+    <Color x:Key="WhiteCol">#E1E5EF</Color>
+    <Color x:Key="VeruWhiteCol">#ffff</Color>
+
+    
+    <DrawingBrush x:Key="Pink">#FF0049</DrawingBrush>
+</ResourceDictionary>
